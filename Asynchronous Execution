@@ -2,9 +2,11 @@ Asynchronous execution differs from usual execution in that it does not block (0
 other requests may be made while previous ones are handled. How they are handled in the background depends on factor such as programming
 language and what the request is bound (1) to.
 
-I/O bound processes as requests may and mostly will not require the creation of new threads to be dealt with, as they depend on the disk,
-and not on machine instructions.
+I/O bound (1) processes as requests may and mostly will not require the creation of new threads (2) to be dealt with, as they depend on
+the disk, and not on machine instructions.
 
 (0) Add blocking definition and link to it.
 
-(1) Add bound processes definitions and links to them.
+(1) Add process boundaries definitions and links to them.
+
+(2) Add thread definition and link to it.
